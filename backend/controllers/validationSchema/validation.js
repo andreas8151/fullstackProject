@@ -17,8 +17,3 @@ function validateUser(username, password) {
 
 module.exports = { validateUser };
 
-/* if (validate.error) {
-  return res.status(400).send(validate.error.details[0].message);
-} else {
-  res.json({ message: "Validation passed" });
-} */
